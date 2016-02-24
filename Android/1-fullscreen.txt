@@ -1,4 +1,2 @@
-tWindowFeature(Window.FEATURE_NO_TITLE);
-        
-this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-	        WindowManager.LayoutParams.FLAG_FULLSCREEN);
+Intent intent = new Intent(this,GotoActivity.clss)
+startActivity(intent);
