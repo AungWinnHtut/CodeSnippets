@@ -1,0 +1,8 @@
+﻿1- res ထဲမွာ raw folder တည္ေဆာက္ပါ
+2- mp3 ဖိုင္မ်ားကို raw folder ထဲကူးထည္႔ပါ
+3- filename စာလံုးအေသး no spacing
+4- private MediaPlayer mp;  တစ္ခုကိုေၾကျငာပါ
+5- Import လုပ္
+6- mp = MediaPlayer.create(this,R.raw.music);
+7- ဖြင္႔ခ်င္တဲ႔ အခ်ိန္မွာ mp.start(); သီခ်င္းက အျမဲတမ္း ပြင္႔ေနလိမ္႔မယ္
+8- ပိတ္ခ်င္တဲ႔ အခ်ိန္မွာ mp.release();
